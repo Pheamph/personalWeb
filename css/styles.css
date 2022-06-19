@@ -1,0 +1,193 @@
+.title {
+  position: relative;
+}
+
+.title::before{
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(net.svg);
+  opacity:0.6;
+}
+
+a {
+  color:black;
+}
+
+h1 {
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.edu {
+  position:relative;
+  /* color: #FFFFFF; */
+}
+
+.brag {
+  position:relative;
+  /* color: #FFFFFF; */
+}
+
+#abt {
+  position: relative;
+  text-align: left;
+  padding: 0.5% 2%;
+}
+
+#abt::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(berkview.jpeg);
+  opacity:.3;
+}
+
+#car {
+  background-image: url(pic.jpeg);
+}
+
+.work_text {
+  text-align: center;
+}
+
+.work_img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.wk_img {
+  text-align: center;
+}
+
+.indc {
+  top: 30px;
+}
+
+#wk {
+  position: relative;
+  text-align: left;
+  padding: 0.5% 2%;
+}
+
+#wk::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(pic.jpeg);
+  opacity:1;
+}
+
+.wk_sec {
+  padding: 0.5% 2%;
+}
+
+#project {
+  position: relative;
+}
+
+#project::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(w4c.png);
+  opacity:1;
+}
+
+#proj1-3 {
+  position: relative;
+  padding: 0.5% 2%;
+}
+
+#proj4-6 {
+  position: relative;
+  padding: 0.5% 2%;
+}
+
+#proj8-10 {
+  position: relative;
+  padding: 0.5% 2%;
+}
+
+.descrip {
+  position:relative;
+}
+
+.bg {
+  position:relative;
+}
+
+.bigpr {
+  color: white;
+}
+
+
+.face {
+  position: relative;
+  text-align: center;
+}
+
+.berklog {
+  position:relative;
+}
+
+#part1 {
+  padding: 1% 3%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.nav-item {
+  font-family: "Montserrat"
+}
+
+.logo {
+  text-align:center;
+}
+
+.card-text {
+  padding-top: 3%;
+  /* text-align: justify; */
+}
+
+#soc {
+  position: relative;
+  text-align:center;
+  margin: 40px 10px;
+}
+
+#footer {
+  text-align: center;
+}
